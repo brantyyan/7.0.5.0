@@ -1,2 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TableSet />
+<TableSet>
+  <Tables>
+    <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>文本</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Int64</ColumnType>
+          <Name>整数</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <Name>小数</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>日期</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.TimeSpan</ColumnType>
+          <Name>时间</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Boolean</ColumnType>
+          <Name>是_否</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>用户</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>图片</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>附件</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>表1</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>0</Weight>
+    </Item>
+  </Tables>
+</TableSet>
