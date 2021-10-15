@@ -153,5 +153,25 @@
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
     "ModuleType": 14
+  },
+  {
+    "ModuleName": "表1_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T12:27:20.1209323+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "表1_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T12:27:20.1209323+08:00",
+    "ModuleType": 1
   }
 ]
